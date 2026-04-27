@@ -1,17 +1,8 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
     <main style={{ padding: 40 }}>
-      <h1>GradeProjector Demo</h1>
-
-      <p>GPPP × WeTheHobby</p>
-
-      <Link href="/analyze">
-        <button style={{ marginTop: 20 }}>
-          Start Demo
-        </button>
-      </Link>
+      <h1>WORKING ✅</h1>
+      <p>If you see this, your app is live.</p>
     </main>
   );
 }
