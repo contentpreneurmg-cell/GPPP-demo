@@ -21,7 +21,7 @@ export default function AnalyzePage() {
   return (
     <main>
       <div className="shell">
-        <div className="nav"><span>02 / Analyze</span><span>VES + EV engine</span></div>
+        <div className="nav"><a href="https://cardprojector.com">← CardProjector</a><span>GPPP Grade Analysis</span></div>
         <div className="grid">
           <section className="panel" style={{gridColumn:"span 5"}}>
             <div className="kicker">Image ingestion</div>
