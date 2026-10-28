@@ -40,7 +40,7 @@ export default function AnalyzePage() {
               <div className="panel" style={{gridColumn:"span 4"}}><div className="muted">Confidence</div><div className="metric">{getConfidence(prob)}</div><span className="badge">{confidenceScore(prob)}/100</span></div>
               <div className="panel" style={{gridColumn:"span 4"}}><div className="muted">Net EV</div><div className="metric">{ev ? `$${ev.net.toFixed(2)}` : "..."}</div></div>
             </div>
-            <Link href="/submit" className="btn">Submit Decision</Link>
+            <Link href="https://cardprojector.com" className="btn">Back to CardProjector</Link>
           </section>
         </div>
       </div>
