@@ -1,6 +1,4 @@
 {
-
-
   "name": "gppp-demo",
   "version": "1.0.0",
   "private": true,
@@ -22,5 +20,5 @@
     "typescript": "5.5.3",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5"
-    
   }
+}
